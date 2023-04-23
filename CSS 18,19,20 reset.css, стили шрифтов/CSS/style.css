@@ -1,0 +1,22 @@
+.h1 {
+    font-size: 2.5em;
+    font-weight: bolder;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-decoration: underline;
+}
+
+.block {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    text-indent: 25px;
+}
+
+h1.block2__h1 {
+    color: rgb(7, 83, 83);
+    font-size: 3rem;
+    font-size: 3vw;
+    line-height: 200%;
+}
