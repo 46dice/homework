@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Phudu';
+    src: local('Phudu-Regular'),
+        local('PhuduRegular'),
+        local('Phudu Regular'),
+        url('../fonts/Phudu-Regular.woff2'), format('woff2'),
+        url('../fonts/Phudu-Regular.woff') format('woff'),
+        url('../fonts/Phudu-Regular.ttf') format('ttf'),
+        url('../fonts/Phudu-Regular.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Phudu';
+    src: local('Phudu-Bold'),
+        local('PhuduBold'),
+        local('Phudu Bold'),
+        url('../fonts/Phudu-Bold.woff2'), format('woff2'),
+        url('../fonts/Phudu-Bold.woff') format('woff'),
+        url('../fonts/Phudu-Bold.ttf') format('ttf'),
+        url('../fonts/Phudu-Bold.eot') format('eot');
+    font-style: normal;
+    font-weight: bold;
+}
+
+.container__text {
+    font-family: 'Phudu', sans-serif;
+}
