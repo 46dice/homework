@@ -1,0 +1,380 @@
+html, body {
+    font-family: Lato, sans-serif;
+    color: #424551;
+    font-weight: 700;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1260px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.heading {
+    color: #1E212C;
+}
+
+.heading__subtitle {
+    margin-bottom: 8px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.heading__title {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 130%;
+}
+
+.button {
+    display: inline-block;
+    padding: 0px 40px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    color: #FFFFFF;
+    line-height: 52px;
+    transition: 0.3s;
+    letter-spacing: 0.5px;
+}
+
+.button2 {
+    display: inline-block;
+    padding: 0px 40px;
+    border: 2px solid rgba(255, 63, 58, 1);
+    border-radius: 4px;
+    color: rgba(255, 63, 58, 1);
+    line-height: 52px;
+    transition: 0.3s;
+    letter-spacing: 0.5px;
+    margin-right: 24px;
+}
+
+.button:hover, .button2:hover {
+    transform: scale(1.05);
+}
+
+.logo {}
+
+/* ------------------------------------ */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-weight: 700;
+    background: url('/images/1header/bg-decor/Group\ 3.svg') 50% 50% no-repeat;
+    background-size: cover;
+    background-color: #FEDCD1;
+}
+
+.header__top {}
+
+.header__top-inner {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__logo {
+    margin-right: 60px;
+}
+
+.header__nav {
+    margin-right: auto;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-item {
+    margin-right: 40px;
+}
+
+.header__nav-item:last-child {
+    margin-right: 0px;
+}
+
+.header__link {
+    line-height: 160%;
+    transition: all 0.3s;
+}
+
+.header__link:hover {
+    color: #FF3F3A;
+}
+
+.header__user-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header__btn-consultation {
+    margin-right: 36px;
+}
+
+.header__btn-user {}
+
+.header__logo-user {
+    margin-right: 9.67px;
+
+}
+
+.header__btn-login:hover, .header__btn-register:hover {
+    color: #F75E05;
+    transition: all 0.3s;
+}
+
+
+.header__body {
+    flex-grow: 1;
+}
+
+.header__body-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1E212C;
+    margin: auto 0;
+}
+
+.header__main {}
+
+.header__play-btn {
+    font-size: 14px;
+}
+
+.header__play-btn--play {
+    display: inline-flex;
+    align-items: center;
+}
+
+.header__play-img {
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.header__play-btn--play:hover svg {
+    box-shadow: 0 0 0 16px rgba(255, 63, 58, 0.12);
+}
+
+.header__play-btn--Pshowreal {
+    transition: 0.3s;
+    margin-left: 16px;
+}
+
+.header__title {
+    margin-top: 24px;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 1px;
+    max-width: 500px;
+}
+
+.header__buttons {
+    margin-top: 60px;
+}
+
+.header__btn-about {}
+
+.header__btn-courses {}
+
+.header__img {}
+
+.header__row {
+    margin-bottom: 80px;
+}
+
+.header__statistics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__statistics>span {
+    height: 8px;
+    width: 8px;
+    background-color: #FF3F3A;
+    border-radius: 50%;
+}
+
+.header__statistics-item span {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    margin-right: 12px;
+}
+
+.header__statistics-item {
+    display: flex;
+    align-items: center;
+}
+
+/* ------------------ABOUT--------------- */
+
+.about {
+    color: #1E212C;
+    margin-top: 238px;
+    margin-bottom: 180px;
+}
+
+.about__inner {}
+
+.about__createx {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+
+}
+
+.about__createx::before {
+    position: absolute;
+    content: "";
+    top: -150px;
+    right: -200px;
+    background: url("/images/2about_us-sertificate/bg-decor/shapes.svg") 100px 85px;
+    width: 100px;
+    height: 85px;
+}
+
+.about__content {}
+
+.about__main-title {}
+
+.about__text {
+    margin-top: 48px;
+    margin-bottom: 60px;
+    min-width: 600px;
+}
+
+.about__desc {
+    font-weight: 400;
+    line-height: 160%;
+    color: #424551
+}
+
+.about_desc--accent {
+    color: #1E212C;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 24px;
+    line-height: 150%;
+}
+
+.about__buttons {}
+
+.about__btn-explore {}
+
+.button2 {}
+
+.about__btn-Browse {}
+
+.button {}
+
+.about__img {}
+
+.about__values {
+    margin-top: 169px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__img-box {
+    border-radius: 4px;
+}
+
+.about__img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about__numbers {
+    margin-left: 15px;
+    align-self: center;
+}
+
+.about__value {
+    display: flex;
+    align-items: center;
+}
+
+.about__value span {
+    margin-right: 16px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 130%;
+    letter-spacing: 1px;
+    color: #FF3F3A;
+}
+
+/* ----------------Дз---------------- */
+
+.about__content:hover {
+    transition: 0.5s;
+
+    height: 500px;
+    border-radius: 5%;
+    border: 4px solid #FEDCD1;
+    ;
+    box-shadow: 0 0 10px 10px #FEDCD1;
+    ;
+}
+
+.about__content:hover .heading__title {
+    color: #F75E05;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.about__img:hover {
+    animation: spin .5s linear 0s;
+}
+
+.creep {
+    width: 100%;
+    height: 100%;
+}
+
+--- .about__img-box {
+    display: inline-block;
+}
+
+.about__imagelaptop {
+    transition: all .99s ease;
+}
+
+.about__img-box:hover .about__imagelaptop {
+    opacity: 0;
+}
+
+.about__img-box:hover {
+    background: url("/images/creep.webp") no-repeat 50% 50%;
+}
