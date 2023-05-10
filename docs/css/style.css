@@ -17,6 +17,18 @@ html, body {
     height: 100%;
 }
 
+.main__about {
+    color: #1E212C;
+    margin-top: 238px;
+    margin-bottom: 180px;
+}
+
+.main__directions {}
+
+.main__certificate {
+    margin-bottom: -46px;
+}
+
 .heading {
     color: #1E212C;
 }
@@ -33,6 +45,10 @@ html, body {
     font-size: 46px;
     font-weight: 900;
     line-height: 130%;
+}
+
+.heading--center {
+    text-align: center;
 }
 
 .button {
@@ -70,7 +86,7 @@ html, body {
     flex-direction: column;
     height: 100vh;
     font-weight: 700;
-    background: url('../images/1header/bg-decor/Group\ 3.svg') 50% 50% no-repeat;
+    background: url('/images/1header/bg-decor/Group\ 3.svg') 50% 50% no-repeat;
     background-size: cover;
     background-color: #FEDCD1;
 }
@@ -217,11 +233,7 @@ html, body {
 
 /* ------------------ABOUT--------------- */
 
-.about {
-    color: #1E212C;
-    margin-top: 238px;
-    margin-bottom: 180px;
-}
+
 
 
 .about__createx {
@@ -238,7 +250,7 @@ html, body {
     content: "";
     top: -150px;
     right: -200px;
-    background: url("../images/2about_us-sertificate/bg-decor/shapes.svg") 100px 85px;
+    background: url("/images/2about_us-sertificate/bg-decor/shapes.svg") 100px 85px;
     width: 100px;
     height: 85px;
 }
@@ -349,4 +361,282 @@ html, body {
 .about__img-box:hover {
     background: url("../images/creep.webp") no-repeat;
     background-size: 100% 100%;
+}
+
+.directions {}
+
+.directions__inner {
+    position: relative;
+}
+
+.directions__inner::after {
+    position: absolute;
+    content: "";
+    top: 364px;
+    right: -290px;
+    background: url("/images/2about_us-sertificate/bg-decor/circles.svg");
+    width: 242px;
+    height: 242px;
+}
+
+.directions__inner::before {
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -200px;
+    background: url("/images/2about_us-sertificate/bg-decor/tochki.svg");
+    width: 136px;
+    height: 114px;
+}
+
+.directions__title {}
+
+.directions__main-title {
+    margin-bottom: 90px;
+
+
+}
+
+
+.directions__body {}
+
+.directions__filter-box {
+    display: flex;
+    margin-bottom: 57px;
+}
+
+.directions__filter-item {
+    margin-right: 61px;
+}
+
+.directions__filter-item:last-child {
+    margin-right: 0px;
+}
+
+.directions__filter-btn {
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #9A9CA5;
+    border: 1px solid #9A9CA5;
+    border-radius: 4px;
+    padding: 5.5px 7px;
+    transition: .2s;
+
+}
+
+.directions__filter-btn:hover {
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border: none;
+    padding: 6px 8px;
+    color: whitesmoke;
+}
+
+.mixitup-control-active {
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border: none;
+    padding: 6px 8px;
+    color: whitesmoke;
+}
+
+.directions__items {
+    display: grid;
+    grid-template: repeat(2, auto)/ repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 178px;
+}
+
+.directions__list-item {
+    border: 1px solid #E5E8ED;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all .4s;
+}
+
+.directions__list-item:hover {
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    transition: all .2s;
+}
+
+.directions__list-link {
+
+    transition: all .4s;
+}
+
+.directions__list-link:hover {
+    color: #FF3F3A;
+    transition: all .2s;
+
+}
+
+.directions__image-box {}
+
+.directions__image-box img {
+    height: 100%;
+    width: 100%;
+}
+
+.directions__list-content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+
+}
+
+.directions__content-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+    background-color: #9A9CA5;
+    padding: 1.2px 7.7px;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+
+.marketing {
+    background-color: #03CEA4;
+}
+
+.management {
+    background-color: #5A87FC;
+}
+
+.HR_Recruting {
+    background-color: #F89828;
+}
+
+.Design {
+    background-color: #F52F6E;
+}
+
+.Development {
+    background: #7772F1;
+}
+
+.directions__text {
+    margin-bottom: 21px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #787A80;
+}
+
+.directions__check-link {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+
+.directions__check-link {}
+
+.directions__btn-check {
+    margin-right: 11px;
+}
+
+.directions__btn-arrow {
+    display: flex;
+    align-items: center;
+}
+
+
+.directions__list-item--empty {
+    background-color: #F4F5F7;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+
+}
+
+
+.directions__list-item--empty>p {
+    max-width: 242px;
+    margin: 0
+}
+
+/* ---------------CERTIFICATE----------------- */
+
+.certificate {}
+
+.container {}
+
+.certificate__inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.certificate__inner::before {
+    content: "";
+    position: absolute;
+    background: url("../images/2about_us-sertificate/bg-decor/shapes2.svg") 0 0 no-repeat;
+
+    width: 60px;
+    height: 60px;
+    top: -20px;
+    left: -255px;
+
+}
+
+.certificate__content {
+    max-width: 392px;
+
+}
+
+.certificate__header {}
+
+.heading {}
+
+.certificate__header-subtitle {}
+
+.heading__subtitle {}
+
+.certificate__header-title {}
+
+.heading__title {}
+
+.certificate__text {
+    margin-top: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    text-shadow: -1px -1px 0 hsl(32, 72%, 65%),
+        -2px -2px 1px hsl(17, 81%, 81%);
+}
+
+.certificate__company-box {
+    margin-top: 32px;
+    display: flex;
+    text-align: center;
+
+}
+
+.certificate__company-item {
+    margin-right: 30px;
+}
+
+.certificate__company-item:last-child {
+    margin-right: 0;
+}
+
+
+.certificate__img-box {
+    width: 705px;
+    min-height: 500px;
+    margin-left: 135px;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.16), 0px 30px 24px -10px rgba(154, 156, 165, 0.1), 0px 12px 10px -6px rgba(154, 156, 165, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+    border-radius: 4px;
+}
+
+.certificate__img-box img {
+    height: 100%;
+    width: 100%;
+
 }

@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Createx</title>
 </head>
 
@@ -112,7 +114,7 @@
             </div>
         </header>
         <main class="main">
-            <section class="about">
+            <section class="main__about about">
                 <div class="container">
                     <div class="about__inner">
                         <div class="about__createx">
@@ -173,10 +175,235 @@
                     </div>
                 </div>
             </section>
+
+            <section class="main__directions directions">
+                <div class="container">
+                    <div class="directions__inner">
+                        <div class="directions__title">
+                            <div class="directions__main-title heading heading--center">
+                                <h6 class="heading__subtitle">
+                                    our main directions
+                                </h6>
+                                <h1 class="heading__title ">
+                                    What do we teach
+                                </h1>
+                            </div>
+                            <div class="directions__body">
+                                <ul class="directions__filter-box">
+                                    <li class="directions__filter-item">
+                                        <button class="directions__filter-btn mixitup-control-active" type="button"
+                                            data-filter="all">All</button>
+                                    </li>
+                                    <li class="directions__filter-item">
+                                        <button class="directions__filter-btn" type="button"
+                                            data-filter=".directions__list-item--marketing">Marketing</button>
+                                    </li>
+                                    <li class="directions__filter-item">
+                                        <button class="directions__filter-btn" type="button"
+                                            data-filter=".directions__list-item--management">Management</button>
+                                    </li>
+                                    <li class="directions__filter-item">
+                                        <button class="directions__filter-btn" type="button"
+                                            data-filter=".directions__list-item--HR-recruting">HR & Recruting</button>
+                                    </li>
+                                    <li class="directions__filter-item">
+                                        <button class="directions__filter-btn" type="button"
+                                            data-filter=".directions__list-item--design">Design</button>
+                                    </li>
+                                    <li class="directions__filter-item">
+                                        <button class="directions__filter-btn" type="button"
+                                            data-filter=".directions__list-item--development">Development </button>
+                                    </li>
+                                </ul>
+
+                                <ul class="directions__items">
+                                    <li class="mix directions__list-item directions__list-item--marketing"
+                                        data-order="1">
+                                        <a href="#" class="directions__list-link">
+                                            <div class="directions__image-box"> <img
+                                                    src="images/2about_us-sertificate/directions/image-4.jpg" alt="">
+                                            </div>
+                                            <div class="directions__list-content">
+                                                <div class="directions__content-btn marketing">Marketing</div>
+                                                <div class="directions__text">Odio posuere netus quisque faucibus lectus
+                                                    arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque
+                                                    consequat.
+                                                </div>
+                                                <div class="directions__btn-arrow">
+                                                    <div href="#" class="directions__check-link">
+                                                        <div class="directions__btn-check">
+                                                            Check courses
+                                                        </div>
+                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"
+                                                                fill="#FF3F3A" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="mix directions__list-item directions__list-item--management"
+                                        data-order="2">
+                                        <a href="#" class="directions__list-link">
+                                            <div class="directions__image-box"> <img
+                                                    src="images/2about_us-sertificate/directions/image-3.jpg" alt="">
+                                            </div>
+                                            <div class="directions__list-content">
+                                                <div class="directions__content-btn management">Management</div>
+                                                <div class="directions__text">Odio posuere netus quisque faucibus lectus
+                                                    arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque
+                                                    consequat.
+                                                </div>
+                                                <div class="directions__btn-arrow">
+                                                    <div href="#" class="directions__check-link">
+                                                        <div class="directions__btn-check">Check courses</div>
+                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"
+                                                                fill="#FF3F3A" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="mix directions__list-item directions__list-item--HR-recruting"
+                                        data-order="3">
+                                        <a href="#" class="directions__list-link">
+                                            <div class="directions__image-box"> <img
+                                                    src="images/2about_us-sertificate/directions/image-2.jpg" alt="">
+                                            </div>
+                                            <div class="directions__list-content">
+                                                <div href="#" class="directions__content-btn HR_Recruting">HR &
+                                                    Recruting</div>
+                                                <div class="directions__text">Odio posuere netus quisque faucibus lectus
+                                                    arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque
+                                                    consequat.
+                                                </div>
+                                                <div class="directions__btn-arrow">
+                                                    <div href="#" class="directions__check-link">
+                                                        <div class="directions__btn-check">Check courses</div>
+                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"
+                                                                fill="#FF3F3A" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="mix directions__list-item directions__list-item--design" data-order="4">
+                                        <a href="#" class="directions__list-link">
+                                            <div class="directions__image-box"> <img
+                                                    src="images/2about_us-sertificate/directions/image-1.jpg" alt="">
+                                            </div>
+                                            <div class="directions__list-content">
+                                                <div href="#" class="directions__content-btn Design">Design</div>
+                                                <div class="directions__text">Odio posuere netus quisque faucibus lectus
+                                                    arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque
+                                                    consequat.
+                                                </div>
+                                                <div class="directions__btn-arrow">
+                                                    <div href="#" class="directions__check-link">
+                                                        <div class="directions__btn-check">Check courses</div>
+                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"
+                                                                fill="#FF3F3A" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="mix directions__list-item directions__list-item--development"
+                                        data-order="5">
+                                        <a href="#" class="directions__list-link">
+                                            <div class="directions__image-box"> <img
+                                                    src="images/2about_us-sertificate/directions/image.jpg" alt="">
+                                            </div>
+                                            <div class="directions__list-content">
+                                                <div href="#" class="directions__content-btn Development">Development
+                                                </div>
+                                                <div class="directions__text">Odio posuere netus quisque faucibus lectus
+                                                    arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque
+                                                    consequat.
+                                                </div>
+                                                <div class="directions__btn-arrow">
+                                                    <div href="#" class="directions__check-link">
+                                                        <div class="directions__btn-check">Check courses</div>
+                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"
+                                                                fill="#FF3F3A" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="mix directions__list-item directions__list-item--empty" data-order="6">
+                                        <p>New studying program coming soon...</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <section class="main__certificate certificate">
+                <div class="container">
+                    <div class="certificate__inner">
+                        <div class="certificate__content">
+                            <div class="certificate__header heading">
+                                <h6 class="certificate__header-subtitle heading__subtitle">Createx Certificate</h6>
+                                <h1 class="certificate__header-title heading__title">Your expertise will be confirmed
+                                </h1>
+                            </div>
+                            <p class="certificate__text">We are accredited by international professional organizations
+                                and institutes:
+                            </p>
+                            <ul class="certificate__company-box">
+                                <li class="certificate__company-item">
+                                    <img src="images/2about_us-sertificate/certificate/Del Mar Strategy Logo 1.svg"
+                                        alt="Logo">
+                                </li>
+                                <li class="certificate__company-item">
+                                    <img src="images/2about_us-sertificate/certificate/Sentinal Consulting Logo 1.svg"
+                                        alt="Logo">
+                                </li>
+                                <li class="certificate__company-item">
+                                    <img src="images/2about_us-sertificate/certificate/National Health Logo 1.svg"
+                                        alt="Logo">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="certificate__img-box">
+                            <img src="images/2about_us-sertificate/certificate/image.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
 
         <footer></footer>
     </div>
 </body>
+<script src="js/mixitup.min.js"></script>
+<script src="js/main.js"></script>
 
 </html>
